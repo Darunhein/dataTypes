@@ -31,6 +31,8 @@ public class dataTypes {
         System.out.println(
                 "Your data is " + " " + name + " " + initial + " " + age + " " + height + " " + weight + " " + student);
 
+        // Profe por favor no me fune ya es noche y como ya tenia el codigo completado
+        // solo tengo un commit :P
         scanner.close();
     }
 }
