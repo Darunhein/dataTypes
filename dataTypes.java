@@ -4,6 +4,10 @@ public class dataTypes {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        // DECLARACION DE VARIABLES
+        final double PI = 3.1416;
+        final double IVA = .16;
+
         // Cadena
         System.out.println("Type your Name");
         String name = scanner.nextLine();
@@ -34,7 +38,7 @@ public class dataTypes {
 
         System.out.println(
                 "Your data is " + " " + name + " " + initial + " " + age + " " + height + " " + weight + " " + student
-                        + " " + phoneNumber);
+                        + " " + phoneNumber + "\n Next are the constants " + PI + IVA);
 
         // Profe por favor no me fune ya es noche y como ya tenia el codigo completado
         // solo tengo un commit :P
