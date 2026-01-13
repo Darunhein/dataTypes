@@ -16,6 +16,10 @@ public class dataTypes {
         System.out.println("Type your age");
         int age = scanner.nextInt();
 
+        // Long
+        System.out.println("Type your phone number ");
+        long phoneNumber = scanner.nextLong();
+
         // Float
         System.out.println("Type your height");
         float height = scanner.nextFloat();
@@ -29,7 +33,8 @@ public class dataTypes {
         boolean student = scanner.nextBoolean();
 
         System.out.println(
-                "Your data is " + " " + name + " " + initial + " " + age + " " + height + " " + weight + " " + student);
+                "Your data is " + " " + name + " " + initial + " " + age + " " + height + " " + weight + " " + student
+                        + " " + phoneNumber);
 
         // Profe por favor no me fune ya es noche y como ya tenia el codigo completado
         // solo tengo un commit :P
