@@ -32,7 +32,7 @@ public class dataTypes {
         System.out.println("Type your weight");
         double weight = scanner.nextDouble();
 
-        // Boolean
+        // Boolean  
         System.out.println("Are you a student ? ");
         boolean student = scanner.nextBoolean();
 
